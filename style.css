@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.box{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+
+}
+
+.item1{
+    /* display: grid;
+    grid-template-columns: auto;
+    height: 500px; */
+    /* border: 2px solid black; */
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.item2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.item3{
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+h1{
+    /* color: white; */
+    font-size:40px;
+    margin-top: 80px;
+    margin-left: 35px;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+p{
+    
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 15px;
+}
+
+/*BUTTONS*/
+
+.btn1{
+    border: none;
+    color: hsl(31, 77%, 52%);
+    border-radius: 50px;
+    margin-left: 35px;
+    width: 120px;
+    height: 50px;
+    margin-top: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.btn1:hover{
+    background-color: wheat
+}
+.btn2:hover{
+    background-color: wheat
+}
+.btn3:hover{
+    background-color: wheat
+}
+
+.btn2{
+    border: none;
+    color: hsl(184, 100%, 22%);
+    border-radius: 50px;
+    margin-left: 35px;
+    width: 120px;
+    height: 50px;
+    margin-top: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+.btn3{
+    border: none;
+    color:hsl(179, 100%, 13%);
+    border-radius: 50px;
+    margin-left: 35px;
+    width: 120px;
+    height: 50px;
+    margin-top: 60px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+/*FOOTER*/
+
+ .Footer { font-size: 12px; text-align: center; }
+.Footer a { color: hsl(228, 45%, 44%); } 
+
+@media screen and (max-width:600px) {
+    .box{
+        display: grid;
+        grid-template-columns: auto ;
+        
+    }
+    .item1{
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        
+    }
+    .item3{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+    }
+
+    .btn1,.btn2,.btn3{
+        margin-bottom: 20px;
+    }
+
+    .Footer{
+        opacity: 0;
+    }
+}
+
+
